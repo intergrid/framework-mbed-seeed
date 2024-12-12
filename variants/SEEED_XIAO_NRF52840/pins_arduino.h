@@ -103,6 +103,9 @@ static const uint8_t A5  = PIN_A5;
 #define PIN_SERIAL_RX (7ul)
 #define PIN_SERIAL_TX (6ul)
 
+#define PIN_SERIAL2_RX (9ul)
+#define PIN_SERIAL2_TX (8ul)
+
 //Needed for SD library
 #define SDCARD_SPI    SPI
 #define SDCARD_SS_PIN   PIN_SPI_SS
@@ -176,6 +179,9 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 #define SERIAL_HOWMANY		2
 #define SERIAL1_TX			(digitalPinToPinName(PIN_SERIAL_TX))
 #define SERIAL1_RX			(digitalPinToPinName(PIN_SERIAL_RX))
+
+#define SERIAL2_TX			(digitalPinToPinName(PIN_SERIAL2_TX))
+#define SERIAL2_RX			(digitalPinToPinName(PIN_SERIAL2_RX))
 
 #define SERIAL_CDC			1
 #define HAS_UNIQUE_ISERIAL_DESCRIPTOR
