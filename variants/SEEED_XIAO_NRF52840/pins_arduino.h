@@ -176,7 +176,7 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 
 
 // Mbed specific defines
-#define SERIAL_HOWMANY		2
+#define SERIAL_HOWMANY		2 // changed by RW, Dec 2024 from 1 to 2
 #define SERIAL1_TX			(digitalPinToPinName(PIN_SERIAL_TX))
 #define SERIAL1_RX			(digitalPinToPinName(PIN_SERIAL_RX))
 
